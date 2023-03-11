@@ -1,0 +1,35 @@
+
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+body {
+    background-color: rgb(214, 20, 127);
+    margin: 20px;
+        padding: 10px; 
+  }
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+  }
+  
+.row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  .column img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
