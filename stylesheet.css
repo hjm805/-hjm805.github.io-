@@ -1,15 +1,50 @@
+header {
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+  }
+
+body {
+    background-color: skyblue;
+
+  
+        margin: 20px;
+        padding: 10px; 
+      
+  }
+h1 {
+    font-size: 40px;
+  }
+  h1 {
+    font-family: Arial, sans-serif;
+  }
+  
 .row {
-  display: flex;
-  justify-content: center;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-.column img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+    display: flex;
+    justify-content: center;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  
+  .column img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  nav {
+ 
+  background: #ccc;
+  padding: 20px;
+  }
+ ul {
+    list-style-type: none;
+    padding: 0;
+    background: #0cbe9a;
+   
+    
+  }
