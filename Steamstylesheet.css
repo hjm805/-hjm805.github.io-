@@ -1,12 +1,14 @@
 
+
+
 body {
-    background-color: rgb(193, 173, 27);
+    background-color: rgb(214, 20, 127);
     margin: 20px;
         padding: 10px; 
   }
 h1 {
-    font-size: 60px;
-    font-family: Verdana, sans-serif;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
   }
   
 .row {
