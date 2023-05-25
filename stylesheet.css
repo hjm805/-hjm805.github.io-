@@ -1,50 +1,87 @@
-header {
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-  }
-
 body {
-    background-color: skyblue;
+  background-image: url("jinkx.jpg");
+  background-color: #f8f8f8;
+  margin: 50px;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+}
+
+header {
+
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1 {
+ 
+  font-size: 40px;
+  margin-top: 0;
+  text-align: center;
+  
+}
 
   
-        margin: 20px;
-        padding: 10px; 
-      
-  }
-h1 {
-    font-size: 40px;
-  }
-  h1 {
-    font-family: Arial, sans-serif;
-  }
+h3  {
+  background-color: #3f3d3d;
+  font-size: 40px;
+  margin-top: 0;
+  border-radius: 10px;
+}
   
-.row {
-    display: flex;
-    justify-content: center;
-  }
+
+
+form {
+  background-color: #66aa4f;
+  text-align: center;
+  margin: 20px;  
+  border-radius: 10px;
+}
+
+select, input[type="text"] {
+  background-color: #66aa4f;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+    opacity: 0.5;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #66aa4f;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #66aa4f;
+}
+
+p {
+  background-color: #66aa4f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#sensitivity {
   
-  .column {
-    flex: 33.33%;
-    padding: 5px;
-  }
-  
-  .column img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  nav {
- 
-  background: #ccc;
-  padding: 20px;
-  }
- ul {
-    list-style-type: none;
-    padding: 0;
-    background: #0cbe9a;
-   
-    
-  }
+  text-align: center;
+  font-size: 20px;
+  background-color: #66aa4f;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;  
+}
